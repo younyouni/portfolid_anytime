@@ -1,0 +1,121 @@
+body.appwebview div.container[data-v-1eab7d2c] {
+	padding-top: 0
+}
+
+@media only screen and (min-width: 780px) {
+	div.container[data-v-1eab7d2c] {
+		padding-top: 80px
+	}
+}
+
+@media only screen and (max-width: 779px) {
+	div.container[data-v-1eab7d2c] {
+		padding-top: 56px
+	}
+}
+
+div.container section[data-v-1eab7d2c] {
+	padding: 12px 0;
+	box-sizing: border-box;
+	border: 1px solid #c1c1c1c1;
+	border-radius: 12px
+}
+
+@media ( prefers-color-scheme : dark) {
+	div.container section[data-v-1eab7d2c] {
+		border: 1px solid #c1c1c1;
+	}
+}
+
+@media only screen and (min-width: 780px) {
+	div.container section[data-v-1eab7d2c] {
+		margin: 24px auto 25px auto;
+		width: 480px;
+		flex-direction: column;
+		display: flex;
+		background: #ffffff;
+		padding: 24px;
+	}
+}
+
+@media only screen and (max-width: 779px) {
+	div.container section[data-v-1eab7d2c] {
+		margin: 0 8px
+	}
+}
+
+div.container section.empty[data-v-1eab7d2c] {
+	padding: 72px 0
+}
+
+div.container section.empty p[data-v-1eab7d2c] {
+	line-height: 26px;
+	color: #A6A6A6;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center
+}
+
+@media ( prefers-color-scheme : dark) {
+	div.container section.empty p[data-v-1eab7d2c] {
+		color: #6E6E6E
+	}
+}
+
+body>div>div.container>section>a>p {
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.container section h1[data-v-1eab7d2c] {
+	color: #292929;
+	font-weight: bold
+}
+
+@media ( prefers-color-scheme : dark) {
+	div.container section h1[data-v-1eab7d2c] {
+		color: #111111
+	}
+}
+
+@media only screen and (min-width: 780px) {
+	div.container section h1[data-v-1eab7d2c] {
+		/*padding: 13px 24px;*/
+		line-height: 30px;
+		font-size: 22px
+	}
+}
+
+@media only screen and (max-width: 779px) {
+	div.container section h1[data-v-1eab7d2c] {
+		display: none
+	}
+}
+
+div.container section a[data-v-1eab7d2c] {
+	display: block;
+	line-height: 24px;
+	word-wrap: break-word;
+	color: #292929;
+	font-size: 16px
+}
+
+@media ( prefers-color-scheme : dark) {
+	div.container section a[data-v-1eab7d2c] {
+		color: #737373
+	}
+}
+
+@media only screen and (min-width: 780px) {
+	div.container section a[data-v-1eab7d2c] {
+		display: flex;
+		padding: 13px 24px;
+		justify-content: space-between;
+	}
+}
+
+@media only screen and (max-width: 779px) {
+	div.container section a[data-v-1eab7d2c] {
+		padding: 12px 16px
+	}
+}

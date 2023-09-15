@@ -1,0 +1,62 @@
+package net.member.action;
+
+import java.io.IOException;
+import java.util.Properties;
+import java.util.Random;
+import javax.mail.*;
+import javax.mail.internet.*;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class SendEmailAction implements Action {
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		
+		    String recipientEmail = request.getParameter("email"); // 입력된 이메일 주소
+	        // 난수(인증번호) 생성
+	        Random random = new Random();
+	        int verificationCode = 100000 + random.nextInt(900000); // 6자리 난수 생성
+
+	        // 이메일로 인증번호 전송
+	        String senderEmail = "chaji281@naver.com"; //  이메일 주소
+	        String senderPassword = "hta1234$"; //  이메일 비밀번호
+
+	        String subject = "애니타입 가입을 환영합니다!";
+	        String body = "이메일 인증 번호: " + verificationCode;
+
+	        try {
+	           Properties props = new Properties();
+	           props.put("mail.smtp.host", "smtp.naver.com");
+	           props.put("mail.smtp.port", "465");
+	           props.put("mail.smtp.auth", "true");
+	           props.put("mail.smtp.ssl.enable", "true");
+	           props.put("mail.smtp.ssl.trust", "smtp.naver.com");
+	           props.put("mail.smtp.ssl.protocols", "TLSv1.2");
+
+	            Session session = Session.getInstance(props, new Authenticator() {
+	                protected PasswordAuthentication getPasswordAuthentication() {
+	                    return new PasswordAuthentication(senderEmail, senderPassword);
+	                }
+	            });
+
+	            Message message = new MimeMessage(session);
+	            message.setFrom(new InternetAddress(senderEmail));
+	            message.setRecipient(Message.RecipientType.TO, new InternetAddress(recipientEmail));
+	            message.setSubject(subject);
+	            message.setText(body);
+
+	            Transport.send(message);
+
+	            // 인증번호를 클라이언트에게 전송
+	            response.getWriter().write(Integer.toString(verificationCode));
+	        } catch (MessagingException e) {
+	            e.printStackTrace();
+	        }
+	        return null;
+	    }
+	}
+
+

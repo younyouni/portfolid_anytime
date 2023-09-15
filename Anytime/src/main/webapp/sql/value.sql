@@ -1,0 +1,193 @@
+/*학교 값*/
+
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (1, '중앙대학교', '@naver.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (2, '서울대학교', '@seouluni.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (3, '연세대학교', '@yonseiuni.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (4, '고려대학교', '@koreauni.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (5, '서강대학교', '@soganguni.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (6, '성균관대학교', '@sungkyunkwanuni.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (7, '한양대학교', '@hanyang.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (8, '경희대학교', '@kyungheeuni.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (9, '성신여자대학교', '@sungshinuni.com');
+INSERT INTO SCHOOL (SCHOOL_NUM, SCHOOL_NAME, DOMAIN_EMAIL)
+VALUES (10, '숭실대학교', '@soongsiluni.com');
+
+/*멤버 값*/
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin1', '중앙대관리자', '1', 'admin@admin.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin2', '서울대관리자', '1', 'admin@admin.com', 2, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin3', '서울대관리자', '1', 'admin@admin.com', 3, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin4', '서울대관리자', '1', 'admin@admin.com', 4, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin5', '서울대관리자', '1', 'admin@admin.com', 5, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin6', '서울대관리자', '1', 'admin@admin.com', 6, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin7', '서울대관리자', '1', 'admin@admin.com', 7, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin8', '서울대관리자', '1', 'admin@admin.com', 8, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin9', '서울대관리자', '1', 'admin@admin.com', 9, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'admin10', '서울대관리자', '1', 'admin@admin.com', 10, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user1', '소품의시', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user2', '메마른꿈', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user3', '섬세한감성', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user4', '향기로운여정', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user5', '우아한추억', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user6', '산뜻한바람', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user7', '달콤한설레임', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user8', '별빛의물결', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user9', '은은한희망', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user10', '추억의조각', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'user11', '따스한휴식', '1', 'user@sample.com', 1, 'Y', '11111', '태양계', '지구', '010-1111-1111', 1, 1, 2023);
+
+INSERT INTO MEMBER (NUM, USERID, NICKNAME, PASSWORD, EMAIL, SCHOOL_NUM, SCHOOL_CHECK, ADDRESS_NUM, ADDRESS1, ADDRESS2, PHONE_NUM, BOARD_ADMIN, ACCOUNT_STATUS, ADMISSION_YEAR)
+VALUES (member_seq.NEXTVAL, 'ddungie4321', '뚱인데여', 'pa$$w0rd', 'chaji281@naver.com', 1, 'N', '56789', '경기도 수원', '2동 2호', '010-987-6543', 0, 1, 2019);
+
+
+
+
+
+/*1번학교 보드 값*/
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 1, '자유게시판', '중앙대학교의 자유게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 1, '비밀게시판', '중앙대학교의 비밀게시판 입니다.', 1, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 1, '공지사항', '중앙대학교의 공지사항 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 1, '정보게시판', '중앙대학교의 정보게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 1, '홍보게시판', '중앙대학교의 홍보게시판 입니다.', 0, 'Y');
+
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 2, '총학생회', '중앙대학교의 총학생회 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 2, '신문사', '중앙대학교의 신문사 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 2, '학생복지위원회', '중앙대학교의 학생복지위원회 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 2, '방송국', '중앙대학교의 방송국 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 2, '동아리연합회', '중앙대학교의 동아리연합회 게시판 입니다.', 0, 'Y');
+
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 3, '컴공과', '중앙대학교의 컴공과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 3, '산디과', '중앙대학교의 산디과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 3, '법학과', '중앙대학교의 법학과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 3, '경영과', '중앙대학교의 경영학과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 3, '국문과', '중앙대학교의 국문과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 1, 1, 3, '컴공과', '중앙대학교의 컴공과 게시판 입니다.', 0, 'Y');
+
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 1, 1, 4, '학교생활', '학교생활에 대한 이야기를 나누는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 1, 1, 4, '자취방 공유', '자취방 정보 및 후기를 공유하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 1, 1, 4, '동아리 소식', '학교 동아리 활동 및 모집 소식을 올리는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 1, 1, 4, '시간표 공유', '수강신청 기간에 도움이 되는 시간표 정보를 공유하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 1, 1, 4, '알바 후기', '알바 관련 정보 및 후기를 공유하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 1, 1, 4, '졸업 이야기', '졸업 후 진로 및 준비 과정에 대한 이야기를 나누는 게시판입니다.', 0, 'Y');
+
+/*2번학교 보드값*/
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 1, '자유게시판', '서울대학교의 자유게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 1, '비밀게시판', '서울대학교의 비밀게시판 입니다.', 1, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 1, '공지사항', '서울대학교의 공지사항 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 1, '정보게시판', '서울대학교의 정보게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 1, '홍보게시판', '서울대학교의 홍보게시판 입니다.', 0, 'Y');
+
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 2, '총학생회', '서울대학교의 총학생회 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 2, '신문사', '서울대학교의 신문사 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 2, '학생복지위원회', '서울대학교의 학생복지위원회 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 2, '방송국', '서울대학교의 방송국 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 2, '동아리연합회', '서울대학교의 동아리연합회 게시판 입니다.', 0, 'Y');
+
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 3, '기계공학과', '서울대학교의 기계공학과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 3, '컴공과', '서울대학교의 컴공과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 3, '건축과', '서울대학교의 건축과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 3, '전기과', '서울대학교의 전기과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 3, '토목과', '서울대학교의 토목과 게시판 입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+values(board_seq.nextval, 2, 2, 3, '간호학과', '서울대학교의 간호학과 게시판 입니다.', 0, 'Y');
+
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 2, 2, 4, '공모전 소식', '공모전 정보 및 후기를 공유하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 2, 2, 4, '학과 자랑', '각 학과의 특징 및 소식을 공유하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 2, 2, 4, '과외/멘토', '과외 및 멘토링 정보를 공유하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 2, 2, 4, '스터디 그룹', '같이 공부할 스터디 그룹을 구하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 2, 2, 4, '캠퍼스 푸드', '학교 주변 맛집 정보를 공유하는 게시판입니다.', 0, 'Y');
+INSERT INTO BOARD (BOARD_NUM, SCHOOL_NUM, NUM, TYPE, NAME, CONTENT, ANONYMOUS, APPROVAL)
+VALUES (board_seq.nextval, 2, 2, 4, '레포츠 모임', '레포츠 관련 활동 및 동호회 모집을 올리는 게시판입니다.', 0, 'Y');
+
+
+/*like 10개, 100개 샘플*/
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '고양이가 좋다면 좋아요를 눌러주세요', '강아지를 좋아하는 사람은 뒤로가기를 눌러주세요', 1, SYSDATE, 10, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '강아지가 좋다면 좋아요를 눌러주세요', '고양이를 좋아하는 사람은 뒤로가기를 눌러주세요', 1, SYSDATE, 11, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '국밥은 진짜 맛있다', '진짜 든든하다', 1, SYSDATE, 12, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '주의', '배고픔주의', 1, SYSDATE, 13, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '저 큰일났어요 어떡해요?', '점심 메뉴를 못정했어요', 1, SYSDATE, 14, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '너무 쉬운 커피 만들기', '만들지말고 사드세요', 1, SYSDATE, 100, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '더위 조심하세요', '요즘 진짜 더움', 1, SYSDATE, 150, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '점심에 뭐먹죠', '추천좀', 1, SYSDATE, 333, 0, 0);
+INSERT INTO POST (POST_NUM, BOARD_NUM, NUM, SUBJECT, CONTENT, FILE_COUNT, POST_DATE, LIKE_COUNT, SCRAP_COUNT, REPORT_COUNT)
+values(post_seq.nextval, 1, 1, '고양이 강아지 둘다 좋다면 좋아요를 눌러주세요', '좋아요를 눌러주세요', 1, SYSDATE, 777, 0, 0);

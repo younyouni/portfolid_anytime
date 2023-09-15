@@ -1,0 +1,9 @@
+drop table comments_like cascade constraints purge;
+
+select * from comments_like;
+
+CREATE TABLE COMMENTS_LIKE (
+    COMMENTS_LIKE_NUM NUMBER NOT NULL PRIMARY KEY,
+    COMMENTS_NUM NUMBER NOT NULL REFERENCES COMMENTS(COMMENTS_NUM),
+    NUM NUMBER NOT NULL REFERENCES MEMBER(NUM)
+);
